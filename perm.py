@@ -241,7 +241,7 @@ def create_stacked_chart(data, title_suffix=""):
     
     fig.update_layout(
         barmode='stack',
-        title=f'H-1B Status Distribution-VisaLens {title_suffix}',
+        title=f'H-1B Case Status Distribution {title_suffix}',
         xaxis_title='Employer',
         yaxis_title='Number of Applications',
         xaxis_tickangle=-45,
@@ -343,7 +343,7 @@ def create_cap_exempt_dropdown_chart(cap_exempt_institutions, selected_state):
 
 def main():
     # Title
-    st.markdown('<h1 class="main-header">🏢 H-1B Analysis Dashboard</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 class="main-header">🏢 H-1B Analysis Dashboard-VisaLens </h1>', unsafe_allow_html=True)
     
     # Load data
     with st.spinner('Loading and processing data...'):
