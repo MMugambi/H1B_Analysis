@@ -1,0 +1,3 @@
+echo "*.xlsx" >> .gitignore
+echo "*.xls" >> .gitignore
+echo "data/*.db" >> .gitignore
